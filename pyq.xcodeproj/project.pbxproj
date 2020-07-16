@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		341972C724BE939600C2BC26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341972C624BE939600C2BC26 /* AppDelegate.swift */; };
+		341972C924BE939600C2BC26 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341972C824BE939600C2BC26 /* SceneDelegate.swift */; };
+		341972CB24BE939600C2BC26 /* PyqVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341972CA24BE939600C2BC26 /* PyqVC.swift */; };
+		341972CE24BE939600C2BC26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 341972CC24BE939600C2BC26 /* Main.storyboard */; };
+		341972D024BE939700C2BC26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 341972CF24BE939700C2BC26 /* Assets.xcassets */; };
+		341972D324BE939700C2BC26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 341972D124BE939700C2BC26 /* LaunchScreen.storyboard */; };
+		341972DB24BE9B1700C2BC26 /* PyqCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341972DA24BE9B1700C2BC26 /* PyqCell.swift */; };
+		341972DD24BE9E7A00C2BC26 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341972DC24BE9E7A00C2BC26 /* Extension.swift */; };
+		341972E024BEA72600C2BC26 /* HeadViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341972DF24BEA72600C2BC26 /* HeadViewCell.swift */; };
+		341972E224BEE09600C2BC26 /* ImgView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341972E124BEE09600C2BC26 /* ImgView.swift */; };
+		341972E424BF0D9100C2BC26 /* PyqModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341972E324BF0D9100C2BC26 /* PyqModel.swift */; };
+		C7B7EF47BD56D1F528498339 /* Pods_pyq.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF7A37F377490C814CA6300F /* Pods_pyq.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0C85711A3978470A8D4B8FAE /* Pods-pyq.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pyq.debug.xcconfig"; path = "Target Support Files/Pods-pyq/Pods-pyq.debug.xcconfig"; sourceTree = "<group>"; };
+		341972C324BE939600C2BC26 /* pyq.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pyq.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		341972C624BE939600C2BC26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		341972C824BE939600C2BC26 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		341972CA24BE939600C2BC26 /* PyqVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PyqVC.swift; sourceTree = "<group>"; };
+		341972CD24BE939600C2BC26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		341972CF24BE939700C2BC26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		341972D224BE939700C2BC26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		341972D424BE939700C2BC26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		341972DA24BE9B1700C2BC26 /* PyqCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PyqCell.swift; sourceTree = "<group>"; };
+		341972DC24BE9E7A00C2BC26 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		341972DF24BEA72600C2BC26 /* HeadViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadViewCell.swift; sourceTree = "<group>"; };
+		341972E124BEE09600C2BC26 /* ImgView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImgView.swift; sourceTree = "<group>"; };
+		341972E324BF0D9100C2BC26 /* PyqModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PyqModel.swift; sourceTree = "<group>"; };
+		417C1E7D2790740020844A7D /* Pods-pyq.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pyq.release.xcconfig"; path = "Target Support Files/Pods-pyq/Pods-pyq.release.xcconfig"; sourceTree = "<group>"; };
+		FF7A37F377490C814CA6300F /* Pods_pyq.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pyq.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		341972C024BE939600C2BC26 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7B7EF47BD56D1F528498339 /* Pods_pyq.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		29E62BA79F28AED53113DBDE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0C85711A3978470A8D4B8FAE /* Pods-pyq.debug.xcconfig */,
+				417C1E7D2790740020844A7D /* Pods-pyq.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		341972BA24BE939600C2BC26 = {
+			isa = PBXGroup;
+			children = (
+				341972C524BE939600C2BC26 /* pyq */,
+				341972C424BE939600C2BC26 /* Products */,
+				29E62BA79F28AED53113DBDE /* Pods */,
+				EF6DD5CF11C255406B1D4A10 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		341972C424BE939600C2BC26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				341972C324BE939600C2BC26 /* pyq.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		341972C524BE939600C2BC26 /* pyq */ = {
+			isa = PBXGroup;
+			children = (
+				341972DC24BE9E7A00C2BC26 /* Extension.swift */,
+				341972C624BE939600C2BC26 /* AppDelegate.swift */,
+				341972C824BE939600C2BC26 /* SceneDelegate.swift */,
+				341972CC24BE939600C2BC26 /* Main.storyboard */,
+				341972CF24BE939700C2BC26 /* Assets.xcassets */,
+				341972D124BE939700C2BC26 /* LaunchScreen.storyboard */,
+				341972D424BE939700C2BC26 /* Info.plist */,
+				341972CA24BE939600C2BC26 /* PyqVC.swift */,
+				341972DA24BE9B1700C2BC26 /* PyqCell.swift */,
+				341972DF24BEA72600C2BC26 /* HeadViewCell.swift */,
+				341972E124BEE09600C2BC26 /* ImgView.swift */,
+				341972E324BF0D9100C2BC26 /* PyqModel.swift */,
+			);
+			path = pyq;
+			sourceTree = "<group>";
+		};
+		EF6DD5CF11C255406B1D4A10 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FF7A37F377490C814CA6300F /* Pods_pyq.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		341972C224BE939600C2BC26 /* pyq */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 341972D724BE939700C2BC26 /* Build configuration list for PBXNativeTarget "pyq" */;
+			buildPhases = (
+				73D57377F082A5D08BB14ECF /* [CP] Check Pods Manifest.lock */,
+				341972BF24BE939600C2BC26 /* Sources */,
+				341972C024BE939600C2BC26 /* Frameworks */,
+				341972C124BE939600C2BC26 /* Resources */,
+				5FDC8228FF1F4EBBAB87A369 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pyq;
+			productName = pyq;
+			productReference = 341972C324BE939600C2BC26 /* pyq.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		341972BB24BE939600C2BC26 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = heliang;
+				TargetAttributes = {
+					341972C224BE939600C2BC26 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 341972BE24BE939600C2BC26 /* Build configuration list for PBXProject "pyq" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 341972BA24BE939600C2BC26;
+			productRefGroup = 341972C424BE939600C2BC26 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				341972C224BE939600C2BC26 /* pyq */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		341972C124BE939600C2BC26 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				341972D324BE939700C2BC26 /* LaunchScreen.storyboard in Resources */,
+				341972D024BE939700C2BC26 /* Assets.xcassets in Resources */,
+				341972CE24BE939600C2BC26 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5FDC8228FF1F4EBBAB87A369 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-pyq/Pods-pyq-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-pyq/Pods-pyq-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-pyq/Pods-pyq-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73D57377F082A5D08BB14ECF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-pyq-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		341972BF24BE939600C2BC26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				341972CB24BE939600C2BC26 /* PyqVC.swift in Sources */,
+				341972C724BE939600C2BC26 /* AppDelegate.swift in Sources */,
+				341972E024BEA72600C2BC26 /* HeadViewCell.swift in Sources */,
+				341972DD24BE9E7A00C2BC26 /* Extension.swift in Sources */,
+				341972E424BF0D9100C2BC26 /* PyqModel.swift in Sources */,
+				341972DB24BE9B1700C2BC26 /* PyqCell.swift in Sources */,
+				341972C924BE939600C2BC26 /* SceneDelegate.swift in Sources */,
+				341972E224BEE09600C2BC26 /* ImgView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		341972CC24BE939600C2BC26 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				341972CD24BE939600C2BC26 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		341972D124BE939700C2BC26 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				341972D224BE939700C2BC26 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		341972D524BE939700C2BC26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		341972D624BE939700C2BC26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		341972D824BE939700C2BC26 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C85711A3978470A8D4B8FAE /* Pods-pyq.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 557XVFP8A7;
+				INFOPLIST_FILE = pyq/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pyq.demo.pyq;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		341972D924BE939700C2BC26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 417C1E7D2790740020844A7D /* Pods-pyq.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 557XVFP8A7;
+				INFOPLIST_FILE = pyq/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.pyq.demo.pyq;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		341972BE24BE939600C2BC26 /* Build configuration list for PBXProject "pyq" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				341972D524BE939700C2BC26 /* Debug */,
+				341972D624BE939700C2BC26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		341972D724BE939700C2BC26 /* Build configuration list for PBXNativeTarget "pyq" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				341972D824BE939700C2BC26 /* Debug */,
+				341972D924BE939700C2BC26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 341972BB24BE939600C2BC26 /* Project object */;
+}

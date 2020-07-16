@@ -1,0 +1,6 @@
+framework module Pods_pyq {
+  umbrella header "Pods-pyq-umbrella.h"
+
+  export *
+  module * { export * }
+}
