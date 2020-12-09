@@ -34,6 +34,8 @@ class PyqVC: UIViewController {
             tableView.separatorInset = UIEdgeInsets.zero
             tableView.layoutMargins = UIEdgeInsets.zero
             tableView.separatorStyle = .none;
+            
+            // 测试一下修改
         }
     }
     
@@ -56,7 +58,7 @@ class PyqVC: UIViewController {
             maker.height.equalTo(STATUS_BAR_HEIGHT + NAVIGATION_BAR_HEIGHT)
         }
         let label = UILabel()
-        label.text = "朋友圈"
+        label.text = "朋友圈1223"
         label.textColor = UIColor.colorWith(str: "#3b4257")
         label.font = UIFont.systemFont(ofSize: 15)
         cusNavigator!.addSubview(label)
